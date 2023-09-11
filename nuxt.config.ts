@@ -4,6 +4,7 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: '/my-diary/',
+    buildAssetsDir: 'assets',
     head: {
       title: 'My Diary',
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/my-diary/favicon.ico' }],

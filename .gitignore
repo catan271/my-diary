@@ -5,6 +5,7 @@
 .nitro
 .cache
 dist
+my-diary
 
 # Node dependencies
 node_modules
