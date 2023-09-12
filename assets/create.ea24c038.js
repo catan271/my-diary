@@ -1,0 +1,1 @@
+import{f as e,o as t,c as s,a}from"./entry.8644b932.js";const o={class:"bg-red"},c=a("div",{class:"p-50"},"create diary",-1),_=[c],n={},l=e({...n,__name:"create",setup(r){return(d,i)=>(t(),s("div",o,_))}});export{l as default};
