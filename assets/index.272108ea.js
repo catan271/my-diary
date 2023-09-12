@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as o,a as t}from"./entry.5e60d718.js";const c={},a={class:"bg-yellow"},n=t("div",{class:"py-50"},"calendar",-1),_=[n];function r(d,i,l,p,f,h){return s(),o("div",a,_)}const u=e(c,[["render",r]]);export{u as default};

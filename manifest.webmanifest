@@ -1,6 +1,6 @@
 {
   "short_name": "My Diary",
-  "name": "My Diary made with Nuxt 3",
+  "name": "My Diary",
   "icons": [
     {
       "src": "favicon.ico",
