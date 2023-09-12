@@ -1,1 +1,0 @@
-import{_ as s,o as e,c as t,a as o}from"./entry.f543d73b.js";const c={},n={class:"bg-brown"},a=o("div",{class:"p-50"},"settings",-1),_=[a];function r(d,i,p,f,l,h){return e(),t("div",n,_)}const u=s(c,[["render",r]]);export{u as default};
