@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="m-auto max-w-800 h-screen shadow">
+  <div id="app">
     <VitePwaManifest />
     <NuxtLayout>
       <NuxtPage />
@@ -20,18 +20,16 @@
 }
 
 #app {
+  @apply m-auto max-w-800 h-full overflow-hidden shadow relative;
+  height: 100dvh;
+
   > * {
-    @apply h-full overflow-hidden flex flex-col;
+    @apply h-full w-full overflow-hidden flex flex-col shadow;
   }
 }
 
-html,
 body {
-  min-height: 100dvh;
-}
-
-body {
-  @apply p-0 m-0;
+  @apply p-0 m-0 overflow-hidden;
   background-color: var(--background-color-2);
 }
 
@@ -41,7 +39,7 @@ body:has(.slide-in-leave-active) .layout-enter-active,
 body:has(.slide-in-enter-active) .layout-leave-active,
 .slide-in-enter-active,
 .slide-in-leave-active {
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .slide-in-enter-active,
