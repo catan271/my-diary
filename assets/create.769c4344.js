@@ -1,1 +1,0 @@
-import{f as e,o as t,c as s,a}from"./entry.5e60d718.js";const o={class:"bg-red"},c=a("div",{class:"p-50"},"create dairy",-1),_=[c],n={},l=e({...n,__name:"create",setup(r){return(d,i)=>(t(),s("div",o,_))}});export{l as default};

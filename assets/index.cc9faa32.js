@@ -1,0 +1,1 @@
+import{_ as s,o as e,c as t,a as o}from"./entry.f543d73b.js";const c={},a={class:"bg-blue"},n=o("div",{class:"p-50"},"statistics",-1),_=[n];function r(i,d,p,l,f,u){return e(),t("div",a,_)}const m=s(c,[["render",r]]);export{m as default};
