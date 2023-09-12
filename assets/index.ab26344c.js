@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as o}from"./entry.69310880.js";const _={};const n={class:"settings-page"},c=o("h1",{class:"p-50"},"Settings",-1),a=[c];function i(r,d,p,l,f,u){return s(),t("div",n,a)}const h=e(_,[["render",i]]);export{h as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as a,a as o}from"./entry.8644b932.js";const t={},c={class:"calendar-page"},n=o("h1",{class:"p-50"},"Calendar",-1),r=[n];function _(d,p,i,l,f,h){return s(),a("div",c,r)}const u=e(t,[["render",_]]);export{u as default};
