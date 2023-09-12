@@ -14,12 +14,16 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/x-icon', href: `${baseURL}/favicon.ico` }],
     },
     pageTransition: { name: 'page', mode: 'in-out' },
+    layoutTransition: { name: 'layout', mode: 'in-out' },
   },
   nitro: {
     baseURL,
   },
   image: {
     provider: 'netlify',
+    netlify: {
+      baseURL,
+    },
   },
 
   css: ['~/assets/styles/index.scss'],

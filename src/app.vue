@@ -1,8 +1,10 @@
 <template>
-  <VitePwaManifest />
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <div id="app" class="m-auto max-w-800 h-screen shadow">
+    <VitePwaManifest />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
 
 <style lang="scss">
@@ -17,14 +19,15 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+#app {
+  > * {
+    @apply h-full overflow-hidden flex flex-col;
+  }
+}
+
 html,
 body {
   min-height: 100dvh;
-}
-
-.app-layout {
-  height: 100dvh;
-  overflow: hidden;
 }
 
 body {
@@ -34,6 +37,8 @@ body {
 
 body:has(.slide-in-leave-active) .page-enter-active,
 body:has(.slide-in-enter-active) .page-leave-active,
+body:has(.slide-in-leave-active) .layout-enter-active,
+body:has(.slide-in-enter-active) .layout-leave-active,
 .slide-in-enter-active,
 .slide-in-leave-active {
   transition: all 0.4s;
@@ -48,12 +53,16 @@ body:has(.slide-in-enter-active) .page-leave-active,
   transform: translate(100%, 0);
 }
 
+.layout-enter-active,
+.layout-leave-active,
 .page-enter-active,
 .page-leave-active {
   @apply absolute inset-x-0 z-0;
 }
 body:has(.slide-in-leave-active) .page-enter-from,
-body:has(.slide-in-enter-active) .page-leave-to {
-  transform: translate(-50%, 0);
+body:has(.slide-in-enter-active) .page-leave-to,
+body:has(.slide-in-leave-active) .layout-enter-from,
+body:has(.slide-in-enter-active) .layout-leave-to {
+  transform: translate(-30%, 0);
 }
 </style>

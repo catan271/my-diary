@@ -3,14 +3,16 @@ export default {};
 </script>
 
 <template>
-  <div class="app-layout m-auto max-w-800 h-screen flex flex-col relative">
-    <slot />
+  <div class="default-layout relative">
+    <div class="page flex-1 overflow-y-scroll">
+      <slot />
+    </div>
     <app-layout-bottom-bar />
   </div>
 </template>
 
 <style lang="scss" scoped>
-.app-layout {
+.default-layout {
   background-color: var(--background-color);
 }
 </style>

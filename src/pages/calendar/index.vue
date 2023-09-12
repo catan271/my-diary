@@ -3,7 +3,7 @@ export default {};
 </script>
 
 <template>
-  <div class="bg-yellow">
-    <div class="py-50">calendar</div>
+  <div class="calendar-page">
+    <h1 class="p-50">Calendar</h1>
   </div>
 </template>

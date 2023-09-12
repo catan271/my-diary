@@ -1,9 +1,10 @@
 <script setup lang="ts">
 definePageMeta({
-  pageTransition: {
+  layoutTransition: {
     name: 'slide-in',
     mode: 'in-out',
   },
+  layout: 'slide-in',
 });
 </script>
 
@@ -13,6 +14,6 @@ export default {};
 
 <template>
   <div class="bg-red">
-    <div class="p-50">create dairy</div>
+    <div class="p-50">create diary</div>
   </div>
 </template>

@@ -9,11 +9,11 @@ export default {
 </script>
 
 <template>
-  <div class="bottom-bar absolute left-0 bottom-0 right-0 h-56 flex items-center">
-    <btn-nav img="/images/ic/ic_menu_timeline.png" to="/dairy"/>
+  <div class="bottom-bar w-full h-56 flex items-center">
+    <btn-nav img="/images/ic/ic_menu_timeline.png" to="/diary" />
     <btn-nav img="/images/ic/ic_menu_calendar.png" to="/calendar" />
     <btn-add />
-    <btn-nav img="/images/ic/ic_menu_chart.png" to="/statistics" />
+    <btn-nav img="/images/ic/ic_menu_chart.png" to="/review" />
     <btn-nav img="/images/ic/ic_menu_mine.png" to="/settings" />
   </div>
 </template>
