@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as o}from"./entry.32296944.js";const _={};const c={class:"review-page"},n=o("h1",{class:"p-50"},"Review",-1),a=[n];function r(i,d,p,l,f,u){return s(),t("div",c,a)}const h=e(_,[["render",r]]);export{h as default};
